@@ -1,6 +1,9 @@
 body {
     background-color: white;
     padding: 10px 10px 10px 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #544837;
   }
 
   h2 {
@@ -246,9 +249,16 @@ nav ul li a {
 
     .img-managers {
         position: absolute;
-        left: 500px;
+        bottom: 0px;
+        left:  5px;   
     }
 
+    .checklist {
+        display: inline-block;
+        padding: 10px;
+        position: relative;
+        left: 800px; 
+    }
 
     .footer {
         font-family: Poppins;
