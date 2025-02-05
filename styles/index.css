@@ -12,7 +12,7 @@ body {
     padding: 20px;
     margin-top: 110px;
     position: relative;
-    left: 260px;
+    left: 280px;
   }
 
   p {
@@ -131,6 +131,7 @@ nav ul li a {
 
     .watch-video {
         color: #FF9900;
+        font-weight: 600;
         padding: 10px;
         font-family: Poppins;
         position: static;
@@ -182,7 +183,11 @@ nav ul li a {
         align-items: center;
     }
 
-
+    .orange-triangle {
+        margin-left: 30px;
+        position: relative;
+        top:3px;
+    }
     .card {
         font-family: Poppins;
         max-width: 200px;
@@ -233,6 +238,17 @@ nav ul li a {
         position: relative;
         top: -50px;
     }
+
+    .design-professionals {
+        position: absolute
+        top: 140px;
+    }
+
+    .img-managers {
+        position: absolute;
+        left: 500px;
+    }
+
 
     .footer {
         font-family: Poppins;
