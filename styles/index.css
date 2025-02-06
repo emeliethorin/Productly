@@ -67,6 +67,38 @@ nav ul li a {
     text-decoration: none;
 }
 
+.white {
+    color: #173A56;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    border-color: #BCD0E5;
+    border-radius: 4px;
+    border-style: solid;
+    min-width: 102px;
+    max-height: 46px;
+    padding: 11px;
+    position: relative;
+    top: -50px;
+    margin-left: 40px;
+}
+
+
+.orange {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #FF9900;
+    border-color: #FF9900;
+    border-radius: 4px;
+    border-style: solid;
+    min-width: 102px;
+    max-height: 46px;
+    padding: 11px;
+    margin: 14px;
+    position: relative;
+    top: -50px;
+}
     .logo {
         background-color: white;
         font-family: "Poppins";
@@ -87,8 +119,19 @@ nav ul li a {
         padding: 10px;
         position: relative;
         left: 200px;
-        margin-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
       }
+
+    .two {
+        display: inline-block;
+        padding: 10px;
+        position: relative;
+        left: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
 
     .main-title {
     color: #2F281E;
@@ -116,7 +159,7 @@ nav ul li a {
     
     }
 
-    .main-button {
+    .main-btn {
     color: white;
     background: #FF9900;
     font-weight: bold;
@@ -161,23 +204,22 @@ nav ul li a {
         position: static;
     }
 
-    .button-mid {
+    .mid {
         color: white;
         background: #FF9900;
-        text-align: center;
-        font-size: 16px;
         font-weight: bold;
+        font-size: 16px;
+        text-align: center;
         width: 175px;
-        height: 53px; 
         border: none;
+        height: 53px; 
         border-radius: 6px;
         border-color: none;
-        padding: 10px;
-        margin-top: 15px;
-        margin-left: 145px;
-        margin-bottom: 210px;
-        position: relative;
-        left: 560px;
+        padding: 18px 32px 18px 32px;
+        position: absolute;
+        top: 180px;
+        right: 500px;
+        margin-bottom: 50px;
     }
 
     .container {
@@ -209,63 +251,101 @@ nav ul li a {
         max-width: 365px;    
     }
 
-    .white {
-        color: #173A56;
-        font-weight: bold;
-        font-size: 16px;
-        background-color: white;
-        border-color: #BCD0E5;
-        border-radius: 4px;
-        border-style: solid;
-        min-width: 102px;
-        max-height: 46px;
-        padding: 11px;
-        position: relative;
-        top: -50px;
-        margin-left: 40px;
-    }
 
 
-    .orange {
-        color: white;
-        font-weight: bold;
-        font-size: 16px;
-        background-color: #FF9900;
-        border-color: #FF9900;
-        border-radius: 4px;
-        border-style: solid;
-        min-width: 102px;
-        max-height: 46px;
-        padding: 11px;
-        margin: 14px;
-        position: relative;
-        top: -50px;
-    }
-
-    .design-professionals {
+    .img-design_professionals {
         position: absolute
-        top: 140px;
+        top: 170px;
+        left: 82px;
     }
 
     .img-managers {
         position: absolute;
         bottom: 0px;
-        left:  5px;   
     }
 
-    .checklist {
-        display: inline-block;
-        padding: 10px;
+    .check-list {
         position: relative;
-        left: 800px; 
+        left: 800px;
+    }
+
+    .check-icon {
+        position: absolute;
+        margin-bottom: 40px;
+    }
+
+    .check-text {
+        margin-left: 50px;;
+
     }
 
     .footer {
+        gap: 175px;
+        display: flex;
+        max-width: 1126;
+        margin-left: 40px;
         font-family: Poppins;
         font-size: 16px;
+        background-color: white;
+        border-top: #979797;
+        margin-top: 50px;
+        position: relative;
+        top: 146px;
+        padding: 0px 40px 83px 10px;
     }
- 
+    
+    .footer div {
+        text-align: left;
+        margin-top: 60px;
+    }
 
+    .col-1 a {
+        display: block;
+        color: #544837;
+        font-size: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        padding: 6px;
+        text-decoration: none;
+    }
+
+
+    .col-2 a {
+        display: block;
+        color: #544837;
+        font-size: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        padding: 6px;
+        text-decoration: none;
+    }
+
+    form input {
+        width: 325px;
+        height: 48px;
+        border-style: solid;
+        border-color: #BCD0E5;
+        border-radius: 4px;
+        margin-top: 25px;
+        margin-bottom: 21px;
+    }
+
+    .footer-btn {
+        color: white;
+        background: #FF9900;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        width: 131px;
+        border: none;
+        height: 39px; 
+        border-radius: 6px;
+        border-color: none;
+        position: absolute;
+        top: 160px;
+        right: 339px;
+        margin-bottom: 10px;
+    }
 
 
   
